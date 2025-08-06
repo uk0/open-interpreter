@@ -18,7 +18,7 @@
 >
 > Please help test the [development branch](https://github.com/OpenInterpreter/open-interpreter/tree/development) and share your experience in the [Discord](https://discord.gg/Hvz9Axh84z):
 > ```
-> pip install git+https://github.com/OpenInterpreter/open-interpreter.git@development
+> pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 > interpreter --help
 > ```
 
@@ -31,7 +31,7 @@
 <br>
 
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 ```
 
 > Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
