@@ -21,6 +21,8 @@
 </p>
 <br>
 
+## Install
+
 ```shell
 pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 ```
