@@ -13,7 +13,7 @@ interpreter --model anyscale/<model-name>
 ```python Python
 from interpreter import interpreter
 
-# Set the model to use from AWS Bedrock:
+# Set the model to use from Anyscale:
 interpreter.llm.model = "anyscale/<model-name>"
 interpreter.chat()
 ```
@@ -46,7 +46,6 @@ interpreter.llm.model = "anyscale/meta-llama/Llama-2-13b-chat-hf"
 interpreter.llm.model = "anyscale/meta-llama/Llama-2-70b-chat-hf"
 interpreter.llm.model = "anyscale/mistralai/Mistral-7B-Instruct-v0.1"
 interpreter.llm.model = "anyscale/codellama/CodeLlama-34b-Instruct-hf"
-
 ```
 
 </CodeGroup>

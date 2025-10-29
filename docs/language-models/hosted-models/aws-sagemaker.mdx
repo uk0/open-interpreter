@@ -37,14 +37,13 @@ We support the following completion models from AWS Sagemaker:
 <CodeGroup>
 
 ```bash Terminal
-
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-7b
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-7b-f
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-13b
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-13b-f
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-70b
 interpreter --model sagemaker/jumpstart-dft-meta-textgeneration-llama-2-70b-b-f
-interpreter --model sagemaker/<your-hugginface-deployment-name>
+interpreter --model sagemaker/<your-huggingface-deployment-name>
 ```
 
 ```python Python
@@ -54,7 +53,7 @@ interpreter.llm.model = "sagemaker/jumpstart-dft-meta-textgeneration-llama-2-13b
 interpreter.llm.model = "sagemaker/jumpstart-dft-meta-textgeneration-llama-2-13b-f"
 interpreter.llm.model = "sagemaker/jumpstart-dft-meta-textgeneration-llama-2-70b"
 interpreter.llm.model = "sagemaker/jumpstart-dft-meta-textgeneration-llama-2-70b-b-f"
-interpreter.llm.model = "sagemaker/<your-hugginface-deployment-name>"
+interpreter.llm.model = "sagemaker/<your-huggingface-deployment-name>"
 ```
 
 </CodeGroup>

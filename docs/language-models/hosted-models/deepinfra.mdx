@@ -33,14 +33,12 @@ We support the following completion models from DeepInfra:
 <CodeGroup>
 
 ```bash Terminal
-
 interpreter --model deepinfra/meta-llama/Llama-2-70b-chat-hf
 interpreter --model deepinfra/meta-llama/Llama-2-7b-chat-hf
 interpreter --model deepinfra/meta-llama/Llama-2-13b-chat-hf
 interpreter --model deepinfra/codellama/CodeLlama-34b-Instruct-hf
 interpreter --model deepinfra/mistral/mistral-7b-instruct-v0.1
 interpreter --model deepinfra/jondurbin/airoboros-l2-70b-gpt4-1.4.1
-
 ```
 
 ```python Python
@@ -50,7 +48,6 @@ interpreter.llm.model = "deepinfra/meta-llama/Llama-2-13b-chat-hf"
 interpreter.llm.model = "deepinfra/codellama/CodeLlama-34b-Instruct-hf"
 interpreter.llm.model = "deepinfra/mistral-7b-instruct-v0.1"
 interpreter.llm.model = "deepinfra/jondurbin/airoboros-l2-70b-gpt4-1.4.1"
-
 ```
 
 </CodeGroup>
@@ -61,4 +58,4 @@ Set the following environment variables [(click here to learn how)](https://chat
 
 | Environment Variable | Description       | Where to Find                                                          |
 | -------------------- | ----------------- | ---------------------------------------------------------------------- |
-| `DEEPINFRA_API_KEY'` | DeepInfra API key | [DeepInfra Dashboard -> API Keys](https://deepinfra.com/dash/api_keys) |
+| `DEEPINFRA_API_KEY` | DeepInfra API key | [DeepInfra Dashboard -> API Keys](https://deepinfra.com/dash/api_keys) |
