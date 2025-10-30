@@ -31,12 +31,10 @@ We support the following completion models from Cloudflare Workers AI:
 <CodeGroup>
 
 ```bash Terminal
-
 interpreter --model cloudflare/@cf/meta/llama-2-7b-chat-fp16
 interpreter --model cloudflare/@cf/meta/llama-2-7b-chat-int8
 interpreter --model @cf/mistral/mistral-7b-instruct-v0.1
 interpreter --model @hf/thebloke/codellama-7b-instruct-awq
-
 ```
 
 ```python Python
@@ -44,7 +42,6 @@ interpreter.llm.model = "cloudflare/@cf/meta/llama-2-7b-chat-fp16"
 interpreter.llm.model = "cloudflare/@cf/meta/llama-2-7b-chat-int8"
 interpreter.llm.model = "@cf/mistral/mistral-7b-instruct-v0.1"
 interpreter.llm.model = "@hf/thebloke/codellama-7b-instruct-awq"
-
 ```
 
 </CodeGroup>
@@ -55,5 +52,5 @@ Set the following environment variables [(click here to learn how)](https://chat
 
 | Environment Variable    | Description                | Where to Find                                                                                  |
 | ----------------------- | -------------------------- | ---------------------------------------------------------------------------------------------- |
-| `CLOUDFLARE_API_KEY'`   | Cloudflare API key         | [Cloudflare Profile Page -> API Tokens](https://dash.cloudflare.com/profile/api-tokens)        |
+| `CLOUDFLARE_API_KEY`   | Cloudflare API key         | [Cloudflare Profile Page -> API Tokens](https://dash.cloudflare.com/profile/api-tokens)        |
 | `CLOUDFLARE_ACCOUNT_ID` | Your Cloudflare account ID | [Cloudflare Dashboard -> Grab the Account ID from the url like: https://dash.cloudflare.com/{CLOUDFLARE_ACCOUNT_ID}?account= ](https://dash.cloudflare.com/) |
