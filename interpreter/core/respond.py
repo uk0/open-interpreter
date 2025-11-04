@@ -8,6 +8,7 @@ os.environ["LITELLM_LOCAL_MODEL_COST_MAP"] = "True"
 import litellm
 import openai
 
+from ..terminal_interface.utils.display_markdown_message import display_markdown_message
 from .render_message import render_message
 
 
