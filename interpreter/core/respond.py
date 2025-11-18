@@ -107,8 +107,8 @@ def respond(interpreter):
                 error_message = str(e).lower()
                 if (
                     interpreter.offline == False
-                    and "auth" in error_message
-                    or "api key" in error_message
+                    and ("auth" in error_message or
+                         "api key" in error_message)
                 ):
                     output = traceback.format_exc()
                     raise Exception(
@@ -116,8 +116,8 @@ def respond(interpreter):
                     )
                 elif (
                     type(e) == litellm.exceptions.RateLimitError
-                    and "exceeded" in str(e).lower()
-                    or "insufficient_quota" in str(e).lower()
+                    and ("exceeded" in str(e).lower() or
+                         "insufficient_quota" in str(e).lower())
                 ):
                     display_markdown_message(
                         f""" > You ran out of current quota for OpenAI's API, please check your plan and billing details. You can either wait for the quota to reset or upgrade your plan.
