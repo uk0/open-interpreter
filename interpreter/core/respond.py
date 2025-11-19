@@ -255,7 +255,7 @@ def respond(interpreter):
                     continue
 
                 # Is this language enabled/supported?
-                if interpreter.computer.terminal.get_language(language) == None:
+                if interpreter.computer.terminal.get_language(language) is None:
                     output = f"`{language}` disabled or not supported."
 
                     yield {
