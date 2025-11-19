@@ -387,7 +387,7 @@ def respond(interpreter):
                     print(str(e))
                     print("Failed to sync your Computer with iComputer. Continuing.")
 
-                # yield final "active_line" message, as if to say, no more code is running. unlightlight active lines
+                # yield final "active_line" message, as if to say, no more code is running. unhighlight active lines
                 # (is this a good idea? is this our responsibility? i think so — we're saying what line of code is running! ...?)
                 yield {
                     "role": "computer",
