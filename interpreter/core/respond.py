@@ -131,9 +131,7 @@ def respond(interpreter):
                 elif (
                     interpreter.offline == False and "not have access" in str(e).lower()
                 ):
-                    """
-                    Check for invalid model in error message and then fallback.
-                    """
+                    # Check for invalid model in error message and then fallback.
                     if (
                         "invalid model" in error_message
                         or "model does not exist" in error_message
