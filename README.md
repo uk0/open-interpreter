@@ -21,20 +21,6 @@
 </p>
 <br>
 
-## Install
-
-```shell
-pip install git+https://github.com/OpenInterpreter/open-interpreter.git
-```
-
-> Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
-
-```shell
-interpreter
-```
-
-<br>
-
 **Open Interpreter** lets LLMs run code (Python, Javascript, Shell, and more) locally. You can chat with Open Interpreter through a ChatGPT-like interface in your terminal by running `$ interpreter` after installing.
 
 This provides a natural-language interface to your computer's general-purpose capabilities:
@@ -62,9 +48,14 @@ https://github.com/OpenInterpreter/open-interpreter/assets/63927363/37152071-680
 
 ## Quick Start
 
+
+### Install
+
 ```shell
-pip install open-interpreter
+pip install git+https://github.com/OpenInterpreter/open-interpreter.git
 ```
+
+> Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
 
 ### Terminal
 
